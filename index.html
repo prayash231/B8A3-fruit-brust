@@ -11,9 +11,26 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
 
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/c69192f2f0.js" crossorigin="anonymous"></script>
+
     <!-- DaisyUI & Tailwind CDN -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- customize configuration -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'sweet-orange': '#F85559',
+              'simple-white':'#FFF',
+            }
+          }
+        }
+      }
+    </script>
 
     <style>
         .font-lato{
@@ -23,14 +40,31 @@
 
 </head>
 <body>
-    <header>
-
+    <header class="xl:container h-[120px] bg-sweet-orange rounded-l-full rounded-r-full mx-auto mt-12 flex justify-around items-center">
+       <!-- navbar section starts here -->
+          <!-- nav items -->
+          <div class="flex gap-7 text-simple-white font-lato text-lg font-medium">
+            <a href="">Home</a>
+            <a href="">About Us</a>
+            <a href="">Shop</a>
+            <a href="">All Fruits</a>
+          </div>
+          <!-- nav logo -->
+          <div class="flex items-center gap-4">
+            <img src="./images/logo.png" alt="fruits-logo">
+            <h1 class="font-lato font-bold text-simple-white text-4xl">Fruit Burst</h1>
+          </div>
+          <!-- nav search option -->
+          <div class="w-[400px] h-[56px] bg-[#FFF] rounded-l-full rounded-r-full flex justify-around items-center">
+            <p class="font-lato text-base font-normal text-[#12121266]">Search here</p>
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
     </header>
     <main>
 
     </main>
     <footer>
-        
+
     </footer>
 </body>
 </html>
