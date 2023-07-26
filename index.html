@@ -64,7 +64,7 @@
     <main>
        <!-- banner section starts here -->
        <section class="max-w-screen-xl mx-auto mt-14">
-        <div class="carousel w-full">
+        <div class="carousel w-full relative">
           <div id="slide1" class="carousel-item relative w-full">
             <div class="hero min-h-screen" style="background-image: url(./images/banner1.png);">
               <div class="hero-overlay bg-opacity-60"></div>
@@ -72,7 +72,7 @@
                 <div class="max-w-md">
                   <h1 class="mb-5 text-5xl font-bold">Exotic tastes at your doorstep</h1>
                   <p class="mb-5">We supply highly quality organic products</p>
-                  <button class="btn bg-sweet-orange border-none">Shop Now</button>
+                  <button class="btn bg-sweet-orange border-none text-[#FFF]">Shop Now</button>
                 </div>
               </div>
             </div>
@@ -80,7 +80,8 @@
               <a href="#slide4" class="btn btn-circle bg-black text-white border-none">❮</a> 
               <a href="#slide2" class="btn btn-circle bg-black text-white border-none">❯</a>
             </div>
-          </div> 
+          </div>
+          
           <div id="slide2" class="carousel-item relative w-full">
             <div class="hero min-h-screen" style="background-image: url(./images/banner2.png);">
               <div class="hero-overlay bg-opacity-60"></div>
@@ -88,7 +89,7 @@
                 <div class="max-w-md">
                   <h1 class="mb-5 text-5xl font-bold">Exotic tastes at your doorstep</h1>
                   <p class="mb-5">We supply highly quality organic products</p>
-                  <button class="btn bg-sweet-orange border-none">Shop Now</button>
+                  <button class="btn bg-sweet-orange border-none text-[#FFF]">Shop Now</button>
                 </div>
               </div>
             </div>
@@ -104,7 +105,7 @@
                 <div class="max-w-md">
                   <h1 class="mb-5 text-5xl font-bold">Exotic tastes at your doorstep</h1>
                   <p class="mb-5">We supply highly quality organic products</p>
-                  <button class="btn bg-sweet-orange border-none">Shop Now</button>
+                  <button class="btn bg-sweet-orange border-none text-[#FFF]">Shop Now</button>
                 </div>
               </div>
             </div>
@@ -120,7 +121,7 @@
                 <div class="max-w-md">
                   <h1 class="mb-5 text-5xl font-bold">Exotic tastes at your doorstep</h1>
                   <p class="mb-5">We supply highly quality organic products</p>
-                  <button class="btn bg-sweet-orange border-none">Shop Now</button>
+                  <button class="btn bg-sweet-orange border-none text-[#FFF]">Shop Now</button>
                 </div>
               </div>
             </div>
@@ -131,6 +132,32 @@
           </div>
         </div>
        </section>
+
+        <!-- banner optinal section  -->
+        <section>
+          <div class="max-w-screen-lg h-60 mx-auto bg-[#FFF] flex justify-around items-center rounded-lg drop-shadow-lg relative -top-32">
+            <div>
+              <img src="./images/fruit1.png" alt="">
+              <p class="text-center">Grapes</p>
+            </div>
+            <div>
+              <img src="./images/fruit2.png" alt="">
+              <p class="text-center">Orange</p>
+            </div>
+            <div>
+              <img src="./images/fruit3.png" alt="">
+              <p class="text-center">Mango</p>
+            </div>
+            <div>
+              <img src="./images/fruit4.png" alt="">
+              <p class="text-center">Strawberry</p>
+            </div>
+            <div>
+              <img src="./images/fruit5.png" alt="">
+              <p class="text-center">Pomegranate</p>
+            </div>
+         </div>
+         </section>
        <!-- countdown and card section -->
        <section class="max-w-screen-xl mx-auto">
          <div class="flex justify-between items-center mt-32">
@@ -143,37 +170,37 @@
           <div>
             <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
               <div class="flex flex-col">
-                <span class="countdown font-mono text-5xl">
+                <span class="countdown font-lato text-5xl text-[#121212] font-extrabold">
                   <span style="--value:29;"></span>
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                     <path d="M12 6.75C11.8011 6.75 11.6103 6.67098 11.4697 6.53033C11.329 6.38968 11.25 6.19891 11.25 6C11.25 5.80109 11.329 5.61032 11.4697 5.46967C11.6103 5.32902 11.8011 5.25 12 5.25C12.1989 5.25 12.3897 5.32902 12.5303 5.46967C12.671 5.61032 12.75 5.80109 12.75 6C12.75 6.19891 12.671 6.38968 12.5303 6.53033C12.3897 6.67098 12.1989 6.75 12 6.75ZM12 12.75C11.8011 12.75 11.6103 12.671 11.4697 12.5303C11.329 12.3897 11.25 12.1989 11.25 12C11.25 11.8011 11.329 11.6103 11.4697 11.4697C11.6103 11.329 11.8011 11.25 12 11.25C12.1989 11.25 12.3897 11.329 12.5303 11.4697C12.671 11.6103 12.75 11.8011 12.75 12C12.75 12.1989 12.671 12.3897 12.5303 12.5303C12.3897 12.671 12.1989 12.75 12 12.75ZM12 18.75C11.8011 18.75 11.6103 18.671 11.4697 18.5303C11.329 18.3897 11.25 18.1989 11.25 18C11.25 17.8011 11.329 17.6103 11.4697 17.4697C11.6103 17.329 11.8011 17.25 12 17.25C12.1989 17.25 12.3897 17.329 12.5303 17.4697C12.671 17.6103 12.75 17.8011 12.75 18C12.75 18.1989 12.671 18.3897 12.5303 18.5303C12.3897 18.671 12.1989 18.75 12 18.75Z" stroke="#121212" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                   </svg>
                 </span>
-                Days
+                <span class="text-center mr-4">Days</span>
               </div> 
               <div class="flex flex-col">
-                <span class="countdown font-mono text-5xl">
+                <span class="countdown font-lato text-5xl text-[#121212] font-extrabold">
                   <span style="--value:15;"></span>
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                     <path d="M12 6.75C11.8011 6.75 11.6103 6.67098 11.4697 6.53033C11.329 6.38968 11.25 6.19891 11.25 6C11.25 5.80109 11.329 5.61032 11.4697 5.46967C11.6103 5.32902 11.8011 5.25 12 5.25C12.1989 5.25 12.3897 5.32902 12.5303 5.46967C12.671 5.61032 12.75 5.80109 12.75 6C12.75 6.19891 12.671 6.38968 12.5303 6.53033C12.3897 6.67098 12.1989 6.75 12 6.75ZM12 12.75C11.8011 12.75 11.6103 12.671 11.4697 12.5303C11.329 12.3897 11.25 12.1989 11.25 12C11.25 11.8011 11.329 11.6103 11.4697 11.4697C11.6103 11.329 11.8011 11.25 12 11.25C12.1989 11.25 12.3897 11.329 12.5303 11.4697C12.671 11.6103 12.75 11.8011 12.75 12C12.75 12.1989 12.671 12.3897 12.5303 12.5303C12.3897 12.671 12.1989 12.75 12 12.75ZM12 18.75C11.8011 18.75 11.6103 18.671 11.4697 18.5303C11.329 18.3897 11.25 18.1989 11.25 18C11.25 17.8011 11.329 17.6103 11.4697 17.4697C11.6103 17.329 11.8011 17.25 12 17.25C12.1989 17.25 12.3897 17.329 12.5303 17.4697C12.671 17.6103 12.75 17.8011 12.75 18C12.75 18.1989 12.671 18.3897 12.5303 18.5303C12.3897 18.671 12.1989 18.75 12 18.75Z" stroke="#121212" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                   </svg>
                 </span>
-                Hours
+                <span class="text-center mr-2">Hours</span>
               </div> 
               <div class="flex flex-col">
-                <span class="countdown font-mono text-5xl">
+                <span class="countdown font-lato text-5xl text-[#121212] font-extrabold">
                   <span style="--value:25;"></span>
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                     <path d="M12 6.75C11.8011 6.75 11.6103 6.67098 11.4697 6.53033C11.329 6.38968 11.25 6.19891 11.25 6C11.25 5.80109 11.329 5.61032 11.4697 5.46967C11.6103 5.32902 11.8011 5.25 12 5.25C12.1989 5.25 12.3897 5.32902 12.5303 5.46967C12.671 5.61032 12.75 5.80109 12.75 6C12.75 6.19891 12.671 6.38968 12.5303 6.53033C12.3897 6.67098 12.1989 6.75 12 6.75ZM12 12.75C11.8011 12.75 11.6103 12.671 11.4697 12.5303C11.329 12.3897 11.25 12.1989 11.25 12C11.25 11.8011 11.329 11.6103 11.4697 11.4697C11.6103 11.329 11.8011 11.25 12 11.25C12.1989 11.25 12.3897 11.329 12.5303 11.4697C12.671 11.6103 12.75 11.8011 12.75 12C12.75 12.1989 12.671 12.3897 12.5303 12.5303C12.3897 12.671 12.1989 12.75 12 12.75ZM12 18.75C11.8011 18.75 11.6103 18.671 11.4697 18.5303C11.329 18.3897 11.25 18.1989 11.25 18C11.25 17.8011 11.329 17.6103 11.4697 17.4697C11.6103 17.329 11.8011 17.25 12 17.25C12.1989 17.25 12.3897 17.329 12.5303 17.4697C12.671 17.6103 12.75 17.8011 12.75 18C12.75 18.1989 12.671 18.3897 12.5303 18.5303C12.3897 18.671 12.1989 18.75 12 18.75Z" stroke="#121212" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                   </svg>
                 </span>
-                Minutes
+                <span class="flex justify-start">Minutes</span>
               </div> 
               <div class="flex flex-col">
-                <span class="countdown font-mono text-5xl">
+                <span class="countdown font-lato text-5xl text-[#121212] font-extrabold">
                   <span style="--value:08;"></span>
                 </span>
-                Seconds
+                <span class="text-center">Seconds</span>
               </div>
             </div>
           </div>
@@ -463,15 +490,14 @@
          </div>
         </section>
     </main>
-    <footer class="bg-black max-w-screen-xl mx-auto h-96">
-    <!-- <footer class="max-w-screen-xl bg-black lg:mx-auto"> -->
-           <!-- footer logo -->
+
+    <footer class="mx-auto bg-black h-96">
         <div class="my-40">
-          <div class="flex justify-center items-center gap-4 pt-24">
+          <div class="flex justify-center items-center gap-4 pt-7 lg:pt-24">
             <img src="./images/logo.png" alt="fruits-logo">
             <h1 class="font-lato font-bold text-simple-white text-4xl">Fruit Burst</h1>
           </div>
-          <div class="flex justify-center gap-14 text-white pt-14">
+          <div class="flex flex-wrap justify-center gap-10 lg:gap-14 text-white pt-14">
             <a href="">Home</a>
             <a href="">About Us</a>
             <a href="">Shop</a>
