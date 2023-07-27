@@ -40,7 +40,8 @@
 
 </head>
 <body>
-  <header class="invisible lg:visible lg:max-w-screen-xl h-24 bg-sweet-orange rounded-l-full rounded-r-full mx-auto mt-12 flex justify-around items-center">
+ <header>
+  <nav class="invisible lg:visible lg:max-w-screen-xl h-24 bg-sweet-orange rounded-l-full rounded-r-full mx-auto mt-12 flex justify-around items-center">
     <!-- navbar section starts here -->
        <!-- nav items -->
        <div class="flex gap-7 text-simple-white font-lato text-lg font-medium">
@@ -59,7 +60,7 @@
          <p class="font-lato text-base font-normal text-[#12121266]">Search here</p>
          <i class="fa-solid fa-magnifying-glass text-[#121212]"></i>
        </div>
-   </header>
+      </nav>
 
    <!-- nav section for mobile and lablet -->
   <nav class="max-w-screen-md mx-auto -mt-28 lg:invisible ml-20 md:ml-0">
@@ -81,10 +82,11 @@
         </div>
   </div>
    </nav>
+ </header>
 
    <main>
        <!-- banner section starts here -->
-       <section class="max-w-screen-xl mx-auto mt-24">
+       <section class="max-w-screen-xl mx-auto -mt-1 md:mt-24">
         <div class="carousel w-full relative">
           <div id="slide1" class="carousel-item relative w-full">
             <div class="ml-20 md:ml-0 hero min-h-screen" style="background-image: url(./images/banner1.png);">
@@ -500,8 +502,8 @@
             <div class="hero-overlay bg-opacity-60"></div>
             <div class="hero-content text-center text-neutral-content">
               <div class="my-28">
-                  <h1 class="mb-5 text-5xl font-bold">Meet the team section</h1>
-                  <p class="mb-5">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
+                  <h1 class="mb-5 text-2xl text-white font-bold">Meet the team</h1>
+                  <p class="mb-5 text-sm text-[#FFF] font-medium">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
 
                   <!-- team members -->
                 <div class="grid md:grid-cols-2 lg:flex flex-row lg:justify-evenly gap-28">
@@ -510,8 +512,8 @@
                     <div class="flex justify-center">
                       <img src="./images/member1.png" alt="">
                     </div>
-                    <h3 class="mt-7">Awlad Hossain</h3>
-                    <p class="mt-2 mb-4">Fruits Expert</p>
+                    <h3 class="mt-7 text-[#FFF] text-2xl font-bold">Awlad Hossain</h3>
+                    <p class="mt-2 mb-4 text-[#FFF] text-base font-medium">Fruits Expert</p>
                     <button class="w-6 h-6 rounded-full bg-[#F85559] text-white"><i class="fa-brands fa-facebook-f"></i></button>
                     <button class="w-6 h-6 rounded-full bg-[#F85559] text-white"><i class="fa-brands fa-twitter"></i></button>
                     <button class="w-6 h-6 rounded-full bg-[#F85559] text-white"><i class="fa-brands fa-linkedin-in"></i></button>
@@ -521,8 +523,8 @@
                       <div class="flex justify-center">
                         <img src="./images/member2.png" alt="">
                       </div>
-                      <h3 class="mt-7">Safia Chowdhury</h3>
-                      <p class="mt-2 mb-4">Fruits Expert</p>
+                      <h3 class="mt-7 text-[#FFF] text-2xl font-bold">Safia Chowdhury</h3>
+                      <p class="mt-2 mb-4 text-[#FFF] text-base font-medium">Fruits Expert</p>
                       <button class="w-6 h-6 rounded-full bg-[#F85559] text-white"><i class="fa-brands fa-facebook-f"></i></button>
                       <button class="w-6 h-6 rounded-full bg-[#F85559] text-white"><i class="fa-brands fa-twitter"></i></button>
                       <button class="w-6 h-6 rounded-full bg-[#F85559] text-white"><i class="fa-brands fa-linkedin-in"></i></button>
@@ -532,8 +534,8 @@
                       <div class="flex justify-center">
                         <img src="./images/member3.png" alt="">
                       </div>
-                      <h3 class="mt-7">Rokib Hossain</h3>
-                      <p class="mt-2 mb-4">Fruits Expert</p>
+                      <h3 class="mt-7 text-[#FFF] text-2xl font-bold">Rokib Hossain</h3>
+                      <p class="mt-2 mb-4 text-[#FFF] text-base font-medium">Fruits Expert</p>
                       <button class="w-6 h-6 rounded-full bg-[#F85559] text-white"><i class="fa-brands fa-facebook-f"></i></button>
                       <button class="w-6 h-6 rounded-full bg-[#F85559] text-white"><i class="fa-brands fa-twitter"></i></button>
                       <button class="w-6 h-6 rounded-full bg-[#F85559] text-white"><i class="fa-brands fa-linkedin-in"></i></button>
@@ -543,8 +545,8 @@
                       <div class="flex justify-center">
                         <img src="./images/member4.png" alt="">
                       </div>
-                      <h3 class="mt-7">Chaity</h3>
-                      <p class="mt-2 mb-4">Fruits Expert</p>
+                      <h3 class="mt-7 text-[#FFF] text-2xl font-bold">Chaity</h3>
+                      <p class="mt-2 mb-4 text-[#FFF] text-base font-medium">Fruits Expert</p>
                       <button class="w-6 h-6 rounded-full bg-[#F85559] text-white"><i class="fa-brands fa-facebook-f"></i></button>
                       <button class="w-6 h-6 rounded-full bg-[#F85559] text-white"><i class="fa-brands fa-twitter"></i></button>
                       <button class="w-6 h-6 rounded-full bg-[#F85559] text-white"><i class="fa-brands fa-linkedin-in"></i></button>
@@ -563,7 +565,7 @@
             <!-- choose us heading -->
             <div class="text-center mt-36 ml-24 md:ml-0">
               <h3 class="font-lato text-xl md:text-5xl font-extrabold">Why Choose Us</h3>
-              <p class="mt-6">
+              <p class="mt-6 text-[#12121299] font-medium text-sm">
                 Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.
               </p>
             </div>
@@ -664,13 +666,13 @@
         </section>
     </main>
 
-    <footer class="mx-w-full mx-auto bg-black h-96 ml-20 md:ml-0">
-        <div class="my-40">
-          <div class="flex justify-center items-center gap-4 pt-7 lg:pt-24">
+    <footer class="mx-w-full mx-auto bg-black h-96 ml-20 md:ml-0 -mt-40 md:-mt-20">
+        <div class="my-40 mb-20">
+          <div class="flex justify-center items-center gap-4 pt-16 md:pt-24">
             <img src="./images/logo.png" alt="fruits-logo">
             <h1 class="font-lato font-bold text-simple-white text-4xl">Fruit Burst</h1>
           </div>
-          <div class="flex flex-wrap justify-center gap-12 lg:gap-14 text-white pt-12">
+          <div class="flex flex-wrap justify-center gap-8 lg:gap-14 text-white pt-12">
             <a href="">Home</a>
             <a href="">About Us</a>
             <a href="">Shop</a>
